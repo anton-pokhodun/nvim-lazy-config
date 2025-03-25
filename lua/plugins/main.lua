@@ -118,12 +118,9 @@ return {
       -- Python: brew install pyright
       lspconfig["pyright"].setup({})
 
-      -- Ruby: gem install solargraph
-      lspconfig["solargraph"].setup({})
       lspconfig["terraformls"].setup({})
 
-      -- https://phpactor.readthedocs.io/en/master/usage/standalone.html#installation
-      lspconfig["phpactor"].setup({})
+      lspconfig["gopls"].setup({})
     end,
   },
 
