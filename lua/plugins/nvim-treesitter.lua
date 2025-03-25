@@ -39,6 +39,8 @@ return {
         "sql",
         "svelte",
         "yaml",
+        "terraform",
+        "hcl",
       },
       indent = { enable = true },
       auto_install = true,
