@@ -121,6 +121,10 @@ return {
       lspconfig["terraformls"].setup({})
 
       lspconfig["gopls"].setup({})
+
+      lspconfig["dockerls"].setup({})
+
+      lspconfig["docker_compose_language_service"].setup({})
     end,
   },
 
@@ -218,6 +222,7 @@ return {
         "typescript",
         "vim",
         "yaml",
+        "dockerfile",
       },
     },
   },
