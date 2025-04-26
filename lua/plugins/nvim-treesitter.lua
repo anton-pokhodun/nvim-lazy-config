@@ -18,10 +18,9 @@ return {
         require("treesitter-context").disable()
       end,
     })
-
+    -- TODO somethign
     treesitter.setup({
       ensure_installed = {
-        "csv",
         "dockerfile",
         "gitignore",
         "go",
@@ -35,9 +34,6 @@ return {
         "proto",
         "python",
         "rego",
-        "ruby",
-        "sql",
-        "svelte",
         "yaml",
         "terraform",
         "hcl",
