@@ -23,7 +23,7 @@
   "navigator.lua": { "branch": "master", "commit": "c46a05cbf8ac1b72be1c99cf6108feda8571a082" },
   "noice.nvim": { "branch": "main", "commit": "0427460c2d7f673ad60eb02b35f5e9926cf67c59" },
   "nui.nvim": { "branch": "main", "commit": "7cd18e73cfbd70e1546931b7268b3eebaeff9391" },
-  "nvim-lint": { "branch": "master", "commit": "8d628d0eca9b9cdc6e9672a274fefc6b9986ee4b" },
+  "nvim-lint": { "branch": "master", "commit": "5763f1d56449e67789796adf87a3908c2ee3c888" },
   "nvim-lspconfig": { "branch": "master", "commit": "036885e8e5456d3907626b634693234f628afef6" },
   "nvim-notify": { "branch": "master", "commit": "b5825cf9ee881dd8e43309c93374ed5b87b7a896" },
   "nvim-treesitter": { "branch": "master", "commit": "42fc28ba918343ebfd5565147a42a26580579482" },

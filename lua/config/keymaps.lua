@@ -14,5 +14,6 @@ map("n", "<C-S-Left>", ":vertical resize +2<CR>", { desc = "Resize Vertical Spli
 map("n", "<F1>", "<Nop>", { noremap = true, silent = true })
 map("i", "<F1>", "<Nop>", { noremap = true, silent = true })
 
--- Close the window
--- map("n", "<leader>cl", "<Cmd>close<CR>", { noremap = true, silent = true })
+-- Move up and down visual selected lines
+map("v", "<C-K>", ":m '<-2<CR>gv=gv", { desc = "[P]Move line up in visual mode" })
+map("v", "<C-J>", ":m '>+1<CR>gv=gv", { desc = "[P]Move line down in visual mode" })
