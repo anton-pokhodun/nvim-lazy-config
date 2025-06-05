@@ -53,6 +53,7 @@ return {
     config = function()
       local luasnip = require("luasnip")
       local types = require("luasnip.util.types")
+      local capabilities = require("blink.cmp").get_lsp_capabilities()
 
       -- Display virtual text to indicate snippet has more nodes
       luasnip.config.setup({
@@ -116,15 +117,15 @@ return {
       -- Go: go install golang.org/x/tools/gopls@latest
 
       -- Python: brew install pyright
-      lspconfig["pyright"].setup({})
+      lspconfig["pyright"].setup({ capabilities = capabilities })
 
-      lspconfig["terraformls"].setup({})
+      lspconfig["terraformls"].setup({ capabilities = capabilities })
 
-      lspconfig["gopls"].setup({})
+      lspconfig["gopls"].setup({ capabilities = capabilities })
 
-      lspconfig["dockerls"].setup({})
+      lspconfig["dockerls"].setup({ capabilities = capabilities })
 
-      lspconfig["docker_compose_language_service"].setup({})
+      -- lspconfig["docker_compose_language_service"].setup({})
     end,
   },
 
@@ -280,6 +281,7 @@ return {
         "shellcheck",
         "shfmt",
         "flake8",
+        "terraform-ls",
       },
     },
   },
